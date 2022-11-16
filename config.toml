@@ -1,4 +1,5 @@
-baseURL = "https://examplesite.com/"
+baseURL = "https://4yjo.github.io/InteractVR"
 title = "VR Interaction Project 2022"
 
 theme= "PaperMod"
+publishDir = "docs"
