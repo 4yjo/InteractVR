@@ -1,0 +1,4 @@
+baseURL = "https://examplesite.com/"
+title = "VR Interaction Project 2022"
+
+theme= "PaperMod"
