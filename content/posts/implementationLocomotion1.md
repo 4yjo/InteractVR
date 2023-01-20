@@ -1,7 +1,7 @@
 ---
 title: "ImplementationLocomotion"
 date: 2022-12-20T10:59:47+01:00
-draft: true
+draft: false
 ---
 
 **Implementation of Locomotion**
