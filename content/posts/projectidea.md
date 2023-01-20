@@ -16,6 +16,6 @@ Background information about the project and a video showing the artwork in acti
  
  [Idea for Locomotion: The player is symbolized by the yellow sphere](InteractVR/resources/_gen/images/sketch_locomotion.png)
  
- <img title="Idea for Locomotion: The yellow sphere symbolizes the player" alt="two pictures each showing a white fan pointed towards a yellow sphere in different angles" src="InteractVR/resources/_gen/images/sketch_locomotion.png">
+ <img title="Idea for Locomotion: The yellow sphere symbolizes the player" alt="two pictures each showing a white fan pointed towards a yellow sphere in different angles" src="./resources/_gen/images/sketch_locomotion.png"/>
  
 
