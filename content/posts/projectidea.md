@@ -14,8 +14,6 @@ Background information about the project and a video showing the artwork in acti
 
  For the implementation of the interaction project I now want to use a ventilator or handheld fan to create directed wind to move the player. Following the physics of wind, the player would move to the left if the ventilator is blowing wind from right side. The direction would be controlled by adjusting the angle in which the ventilator is positioned in relation to the player.
  
- [Idea for Locomotion: The player is symbolized by the yellow sphere](InteractVR/resources/_gen/images/sketch_locomotion.png)
- 
- <img title="Idea for Locomotion: The yellow sphere symbolizes the player" alt="two pictures each showing a white fan pointed towards a yellow sphere in different angles" src="./resources/_gen/images/sketch_locomotion.png"/>
+ ![Idea for Locomotion: The player is symbolized by the yellow sphere](InteractVR/resources/_gen/images/sketch_locomotion.png)
  
 
