@@ -5,16 +5,27 @@
     <link>https://4yjo.github.io/InteractVR/</link>
     <description>Recent content on VR Interaction Project 2022</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 16 Nov 2022 13:03:25 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 10:59:47 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Animal Locomotion</title>
-      <link>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</link>
-      <pubDate>Wed, 16 Nov 2022 13:03:25 +0100</pubDate>
+      <title>ImplementationLocomotion1</title>
+      <link>https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/</link>
+      <pubDate>Tue, 20 Dec 2022 10:59:47 +0100</pubDate>
       
-      <guid>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</guid>
-      <description>Brainstorming different modes of locomotion in animals to find inspiration for locomotion implementation in VR:
-swimming: either by pushing away water with arms/legs or by body movement crawling: similar movements as in swimming, but on land flying: up &amp;amp; downward movement to keep up in the air walking/running: forward movement with legs/feet jumping And getting into how four-legged animals walk:
-&amp;ldquo;It turns out that all four-legged animals step with their left hind leg followed by their left foreleg.</description>
+      <guid>https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/</guid>
+      <description>Implementation of Locomotion
+alt text
+Initially, I decided for a 3rd person player to reduce motion sickness (see Figure below). But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion.</description>
+    </item>
+    
+    <item>
+      <title>Projectidea</title>
+      <link>https://4yjo.github.io/InteractVR/posts/projectidea/</link>
+      <pubDate>Tue, 20 Dec 2022 10:49:09 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/projectidea/</guid>
+      <description>Settling for an idea: Moving the player with a ventilator
+After researching different modes of locomotion in animals and also taking some time with the idea to implement locomotion as it is presented in the Video Game form the Movie &amp;ldquo;Her&amp;rdquo;, I finally settled for a totally different idea inspired by the artwork &amp;ldquo;Objective Realities&amp;rdquo;.
+&amp;ldquo;OBjective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
     </item>
     
     <item>
@@ -24,6 +35,17 @@ swimming: either by pushing away water with arms/legs or by body movement crawli
       
       <guid>https://4yjo.github.io/InteractVR/posts/hello-world/</guid>
       <description>Hello World!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</guid>
+      <description>*&amp;mdash; title: &amp;ldquo;Animal Locomotion&amp;rdquo; date: 2022-11-16T13:03:25+01:00 draft: false Brainstorming different modes of locomotion in animals to find inspiration for locomotion implementation in VR:
+swimming: either by pushing away water with arms/legs or by body movement crawling: similar movements as in swimming, but on land flying: up &amp;amp; downward movement to keep up in the air walking/running: forward movement with legs/feet jumping And getting into how four-legged animals walk:
+&amp;ldquo;It turns out that all four-legged animals step with their left hind leg followed by their left foreleg.</description>
     </item>
     
   </channel>
