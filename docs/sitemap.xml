@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://4yjo.github.io/InteractVR/posts/</loc>
-    <lastmod>2023-01-23T14:51:34+01:00</lastmod>
-  </url><url>
-    <loc>https://4yjo.github.io/InteractVR/posts/usingwind/</loc>
-    <lastmod>2023-01-23T14:51:34+01:00</lastmod>
-  </url><url>
-    <loc>https://4yjo.github.io/InteractVR/</loc>
-    <lastmod>2023-01-23T14:51:34+01:00</lastmod>
-  </url><url>
     <loc>https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/</loc>
     <lastmod>2022-12-20T10:59:47+01:00</lastmod>
   </url><url>
+    <loc>https://4yjo.github.io/InteractVR/posts/</loc>
+    <lastmod>2022-12-20T10:59:47+01:00</lastmod>
+  </url><url>
+    <loc>https://4yjo.github.io/InteractVR/</loc>
+    <lastmod>2022-12-20T10:59:47+01:00</lastmod>
+  </url><url>
     <loc>https://4yjo.github.io/InteractVR/posts/projectidea/</loc>
+    <lastmod>2022-12-20T10:49:09+01:00</lastmod>
+  </url><url>
+    <loc>https://4yjo.github.io/InteractVR/posts/usingwind/</loc>
     <lastmod>2022-12-20T10:49:09+01:00</lastmod>
   </url><url>
     <loc>https://4yjo.github.io/InteractVR/posts/hello-world/</loc>

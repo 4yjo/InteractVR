@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>ImplementationLocomotion | VR Interaction Project 2022</title>
+<title>Implementation of Locomotion | VR Interaction Project 2022</title>
 <meta name="keywords" content="">
 <meta name="description" content="Implementation of Locomotion
 Initially, I decided for a 3rd person player to reduce motion sickness. But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion. Therefore a kite has been added that should enable the player to use the fan to blow wind into the kite. The player then is attached to the kite.
@@ -58,7 +58,7 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
         }
 
     </style>
-</noscript><meta property="og:title" content="ImplementationLocomotion" />
+</noscript><meta property="og:title" content="Implementation of Locomotion" />
 <meta property="og:description" content="Implementation of Locomotion
 Initially, I decided for a 3rd person player to reduce motion sickness. But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion. Therefore a kite has been added that should enable the player to use the fan to blow wind into the kite. The player then is attached to the kite.
 The first idea was to make the kite follow the y-axis position from the Ventilator." />
@@ -68,7 +68,7 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
 <meta property="article:modified_time" content="2022-12-20T10:59:47+01:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ImplementationLocomotion"/>
+<meta name="twitter:title" content="Implementation of Locomotion"/>
 <meta name="twitter:description" content="Implementation of Locomotion
 Initially, I decided for a 3rd person player to reduce motion sickness. But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion. Therefore a kite has been added that should enable the player to use the fan to blow wind into the kite. The player then is attached to the kite.
 The first idea was to make the kite follow the y-axis position from the Ventilator."/>
@@ -88,7 +88,7 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "ImplementationLocomotion",
+      "name": "Implementation of Locomotion",
       "item": "https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/"
     }
   ]
@@ -98,8 +98,8 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "ImplementationLocomotion",
-  "name": "ImplementationLocomotion",
+  "headline": "Implementation of Locomotion",
+  "name": "Implementation of Locomotion",
   "description": "Implementation of Locomotion\nInitially, I decided for a 3rd person player to reduce motion sickness. But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion. Therefore a kite has been added that should enable the player to use the fan to blow wind into the kite. The player then is attached to the kite.\nThe first idea was to make the kite follow the y-axis position from the Ventilator.",
   "keywords": [
     
@@ -174,7 +174,7 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
   <header class="post-header">
     
     <h1 class="post-title">
-      ImplementationLocomotion
+      Implementation of Locomotion
     </h1>
     <div class="post-meta"><span title='2022-12-20 10:59:47 +0100 CET'>December 20, 2022</span>
 
@@ -183,11 +183,9 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
   <div class="post-content"><p><strong>Implementation of Locomotion</strong></p>
 <p>Initially, I decided for a 3rd person player to reduce motion sickness. But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion. Therefore a kite has been added that should enable the player to use the fan to blow wind into the kite. The player then is attached to the kite.</p>
 <!-- raw HTML omitted -->
-<p><img loading="lazy" src="./_gen/images/player_mod.png" alt="From 1st to 3rd person player implementation"  />
-
-<img loading="lazy" src="/posts/player_mod1.jpg" alt="From 1st to 3rd person player implementation"  />
-
-The first idea was to make the kite follow the y-axis position from the Ventilator. Even though that approach was a bit slow, it allowed the kite to be moved from left to right. Then a force was applied to move the kite forward. The player was attached to the kite as a child and thus followed its movement.</p>
+<p><img loading="lazy" src="./player_mod.png" alt="From 1st to 3rd person player implementation"  />
+</p>
+<p>The first idea was to make the kite follow the y-axis position from the Ventilator. Even though that approach was a bit slow, it allowed the kite to be moved from left to right. Then a force was applied to move the kite forward. The player was attached to the kite as a child and thus followed its movement.</p>
 <!-- raw HTML omitted -->
 <p>This did not work well, as it did not allow the kite to rotate. The player could only move in forward direction and do zig-zag movements to the left and right but it was impossible to turn around a corner. Thus I took a deeper look in implementing rotations in Unity. For more information see the post to this topic.</p>
 <p>In the end I managed to rotate the kite in a smooth circle according to the angle of rotation of the left controller. So people can move the Controller as the fan and the kite follows its orientation as if it is blown by wind.</p>

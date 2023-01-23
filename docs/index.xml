@@ -5,20 +5,9 @@
     <link>https://4yjo.github.io/InteractVR/</link>
     <description>Recent content on VR Interaction Project 2022</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Jan 2023 14:51:34 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 10:59:47 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>UsingWind</title>
-      <link>https://4yjo.github.io/InteractVR/posts/usingwind/</link>
-      <pubDate>Mon, 23 Jan 2023 14:51:34 +0100</pubDate>
-      
-      <guid>https://4yjo.github.io/InteractVR/posts/usingwind/</guid>
-      <description>Settling for an idea: Moving the player with a ventilator
-After researching different modes of locomotion in animals and also taking some time with the idea to implement locomotion as it is presented in the Video Game form the Movie &amp;ldquo;Her&amp;rdquo;, I finally settled for a totally different idea inspired by the artwork &amp;ldquo;Objective Realities&amp;rdquo;.
-&amp;ldquo;OBjective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
-    </item>
-    
-    <item>
-      <title>ImplementationLocomotion</title>
+      <title>Implementation of Locomotion</title>
       <link>https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/</link>
       <pubDate>Tue, 20 Dec 2022 10:59:47 +0100</pubDate>
       
@@ -34,6 +23,17 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
       <pubDate>Tue, 20 Dec 2022 10:49:09 +0100</pubDate>
       
       <guid>https://4yjo.github.io/InteractVR/posts/projectidea/</guid>
+      <description>Settling for an idea: Moving the player with a ventilator
+After researching different modes of locomotion in animals and also taking some time with the idea to implement locomotion as it is presented in the Video Game form the Movie &amp;ldquo;Her&amp;rdquo;, I finally settled for a totally different idea inspired by the artwork &amp;ldquo;Objective Realities&amp;rdquo;.
+&amp;ldquo;OBjective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
+    </item>
+    
+    <item>
+      <title>Settling for an idea</title>
+      <link>https://4yjo.github.io/InteractVR/posts/usingwind/</link>
+      <pubDate>Tue, 20 Dec 2022 10:49:09 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/usingwind/</guid>
       <description>Settling for an idea: Moving the player with a ventilator
 After researching different modes of locomotion in animals and also taking some time with the idea to implement locomotion as it is presented in the Video Game form the Movie &amp;ldquo;Her&amp;rdquo;, I finally settled for a totally different idea inspired by the artwork &amp;ldquo;Objective Realities&amp;rdquo;.
 &amp;ldquo;OBjective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
