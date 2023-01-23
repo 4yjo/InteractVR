@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 20 Dec 2022 10:59:47 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ImplementationLocomotion1</title>
+      <title>ImplementationLocomotion</title>
       <link>https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/</link>
       <pubDate>Tue, 20 Dec 2022 10:59:47 +0100</pubDate>
       
       <guid>https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/</guid>
       <description>Implementation of Locomotion
-alt text
-Initially, I decided for a 3rd person player to reduce motion sickness (see Figure below). But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion.</description>
+Initially, I decided for a 3rd person player to reduce motion sickness. But after discussing the idea in class, I decided for a 1st person view as that allows for smoother camera motion. Therefore a kite has been added that should enable the player to use the fan to blow wind into the kite. The player then is attached to the kite.
+The first idea was to make the kite follow the y-axis position from the Ventilator.</description>
     </item>
     
     <item>
-      <title>Projectidea</title>
+      <title>Project idea</title>
       <link>https://4yjo.github.io/InteractVR/posts/projectidea/</link>
       <pubDate>Tue, 20 Dec 2022 10:49:09 +0100</pubDate>
       
