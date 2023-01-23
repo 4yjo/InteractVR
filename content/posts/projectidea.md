@@ -1,7 +1,7 @@
 ---
 title: "Project idea"
 date: 2022-12-20T10:49:09+01:00
-draft: false
+draft: true
 ---
 
 **Settling for an idea: Moving the player with a ventilator**
