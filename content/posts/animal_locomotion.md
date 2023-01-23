@@ -1,5 +1,5 @@
-*---
-title: "Animal Locomotion"
+---
+title: "First ideas: Animal Locomotion"
 date: 2022-11-16T13:03:25+01:00
 draft: false
 ---

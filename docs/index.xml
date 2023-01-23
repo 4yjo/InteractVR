@@ -40,23 +40,23 @@ After researching different modes of locomotion in animals and also taking some 
     </item>
     
     <item>
+      <title>First ideas: Animal Locomotion</title>
+      <link>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</link>
+      <pubDate>Wed, 16 Nov 2022 13:03:25 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</guid>
+      <description>Brainstorming different modes of locomotion in animals to find inspiration for locomotion implementation in VR:
+swimming: either by pushing away water with arms/legs or by body movement crawling: similar movements as in swimming, but on land flying: up &amp;amp; downward movement to keep up in the air walking/running: forward movement with legs/feet jumping And getting into how four-legged animals walk:
+&amp;ldquo;It turns out that all four-legged animals step with their left hind leg followed by their left foreleg.</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://4yjo.github.io/InteractVR/posts/hello-world/</link>
       <pubDate>Tue, 15 Nov 2022 17:23:15 +0100</pubDate>
       
       <guid>https://4yjo.github.io/InteractVR/posts/hello-world/</guid>
       <description>Hello World!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</guid>
-      <description>*&amp;mdash; title: &amp;ldquo;Animal Locomotion&amp;rdquo; date: 2022-11-16T13:03:25+01:00 draft: false Brainstorming different modes of locomotion in animals to find inspiration for locomotion implementation in VR:
-swimming: either by pushing away water with arms/legs or by body movement crawling: similar movements as in swimming, but on land flying: up &amp;amp; downward movement to keep up in the air walking/running: forward movement with legs/feet jumping And getting into how four-legged animals walk:
-&amp;ldquo;It turns out that all four-legged animals step with their left hind leg followed by their left foreleg.</description>
     </item>
     
   </channel>
