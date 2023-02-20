@@ -14,8 +14,10 @@ After researching different modes of locomotion in animals and also taking some 
 Background information about the project and a video showing the artwork in action can be found [here](https://www.wired.com/beyond-the-beyond/2018/08/automata-farm-objective-reality/). A interview with automata.farm can be read [here](https://speculativeedu.eu/interview-automato-farm/).
 
  For the implementation of the interaction project I now want to use a ventilator or handheld fan to create directed wind to move the player. Following the physics of wind, the player would move to the left if the ventilator is blowing wind into the left side of the kite when the ventilator is hold on the right side. The direction would be controlled by adjusting the angle in which the ventilator is positioned in relation to the player.
-  ![Idea for Locomotion: The player is symbolized by the yellow sphere](/player_mod.png)
-![Idea for Locomotion2: The player is symbolized by the yellow sphere](/content/posts/player_mod.png)
+
+![Test1](./resources/_gen/images/test1.png)
+![Test1a](../resources/_gen/images/test1.png)
+![Test2](/resources/_gen/images/test1.png)
  
- ![Idea for Locomotion: The player is symbolized by the yellow sphere](/sketch_locomotion.png)
+ ![Test3](content/posts/player_mod.png.png)
  
