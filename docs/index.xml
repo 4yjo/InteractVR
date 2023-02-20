@@ -5,7 +5,58 @@
     <link>https://4yjo.github.io/InteractVR/</link>
     <description>Recent content on VR Interaction Project 2022</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Dec 2022 10:59:47 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Feb 2023 17:52:53 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>InstructionsToPlay</title>
+      <link>https://4yjo.github.io/InteractVR/posts/instructionstoplay/</link>
+      <pubDate>Tue, 14 Feb 2023 17:52:53 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/instructionstoplay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation</title>
+      <link>https://4yjo.github.io/InteractVR/posts/evaluation/</link>
+      <pubDate>Tue, 14 Feb 2023 17:52:29 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/evaluation/</guid>
+      <description>** Evaluation**
+For the evaluation the game was tested by two people (excluding the developer). They were asked to play the game for one round of the parcours and afterwards filled in a small questionnaire.
+Game logs of the two tests and the scores achieved by the (more practiced) developer as reference:
+&amp;ldquo;Time for Locomotion&amp;rdquo; describes the time needed to complete one round of the parcours excluding the time used for object interactions.</description>
+    </item>
+    
+    <item>
+      <title>ObjectInteraction</title>
+      <link>https://4yjo.github.io/InteractVR/posts/objectinteraction/</link>
+      <pubDate>Tue, 14 Feb 2023 16:49:46 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/objectinteraction/</guid>
+      <description>** Implementation of Object Interaction**
+There are three object interaction tasks within the parcours. Each spawns two t-shaped objects in random position and rotatin. One is slightly transparent, the other is opaque. The users have to rotate and translate the position of the opaque object to make it fit the transparent ones. In the end the accuracy is measured by calculating the offset of the different parts of the transparent object from the opaque one.</description>
+    </item>
+    
+    <item>
+      <title>Raycast</title>
+      <link>https://4yjo.github.io/InteractVR/posts/raycast/</link>
+      <pubDate>Tue, 14 Feb 2023 16:49:35 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/raycast/</guid>
+      <description>Using Raycast to &amp;ldquo;blow&amp;rdquo; wind at objects
+The decision to use Raycasts allowed for a more controlled handling of events compared to the Unity Physics - at least for me it soon became much easier to understand.
+The raycast is implemented in the blowWind.cs script attached to the ventilator. I also attached a Line-Renderer-Component to the ventilator that visualises the ray for the players. The script differentiates between two kinds of &amp;ldquo;wind modes&amp;rdquo; that the players can change by tapping the touch button of the left controller.</description>
+    </item>
+    
+    <item>
+      <title>Locomotion</title>
+      <link>https://4yjo.github.io/InteractVR/posts/locomotion/</link>
+      <pubDate>Tue, 14 Feb 2023 16:49:23 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/locomotion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Implementation of Locomotion</title>
       <link>https://4yjo.github.io/InteractVR/posts/implementationlocomotion1/</link>
@@ -36,7 +87,7 @@ After researching different modes of locomotion in animals and also taking some 
       <guid>https://4yjo.github.io/InteractVR/posts/usingwind/</guid>
       <description>Settling for an idea: Moving the player with a ventilator
 After researching different modes of locomotion in animals and also taking some time with the idea to implement locomotion as it is presented in the Video Game form the Movie &amp;ldquo;Her&amp;rdquo;, I finally settled for a totally different idea inspired by the artwork &amp;ldquo;Objective Realities&amp;rdquo;.
-&amp;ldquo;OBjective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
+&amp;ldquo;Objective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
     </item>
     
     <item>
