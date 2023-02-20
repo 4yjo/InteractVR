@@ -1,5 +1,5 @@
 ---
-title: "Settling for an idea"
+title: "Locomotion with Kite and Ventilator"
 date: 2022-12-20T10:49:09+01:00
 draft: false
 ---
@@ -15,6 +15,6 @@ Background information about the project and a video showing the artwork in acti
 
  For the implementation of the interaction project I now want to use a ventilator or handheld fan to create directed wind to move the player. Following the physics of wind, the player would move to the left if the ventilator is blowing wind into the left side of the kite when the ventilator is hold on the right side. The direction would be controlled by adjusting the angle in which the ventilator is positioned in relation to the player.
  
- ![Idea for Locomotion: The player is symbolized by the yellow sphere](./sketch_locomotion.png)
+ ![Idea for Locomotion: The player is symbolized by the yellow sphere](sketch_locomotion.png)
  
 
