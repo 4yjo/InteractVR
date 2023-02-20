@@ -18,3 +18,4 @@ Background information about the project and a video showing the artwork in acti
  ![Idea for Locomotion: The player is symbolized by the yellow sphere](sketch_locomotion.png)
  
 
+![XXX](content/posts/sketch_locomotion.png)
