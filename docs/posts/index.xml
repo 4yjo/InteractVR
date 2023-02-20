@@ -5,14 +5,25 @@
     <link>https://4yjo.github.io/InteractVR/posts/</link>
     <description>Recent content in Posts on VR Interaction Project 2022</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Feb 2023 17:52:53 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 14:25:14 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/InteractVR/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>InstructionsToPlay</title>
+      <title>Moodboard</title>
+      <link>https://4yjo.github.io/InteractVR/posts/moodboard/</link>
+      <pubDate>Mon, 20 Feb 2023 14:25:14 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/moodboard/</guid>
+      <description>** Setting a focus for user-experience factors **
+Implementing interaction tequniques for VR is much different from other interaction. It incorporates a 3rd dimension and adds a real spacial relation of the player within the scene. Furthermore the input devices are directly connected to the player&amp;rsquo;s body what increases immersion but also increases the risk of feeling uncomfortable during the game. I used the old and the new Oculus explanations that present the different ways the controllers can be used.</description>
+    </item>
+    
+    <item>
+      <title>How To Play</title>
       <link>https://4yjo.github.io/InteractVR/posts/instructionstoplay/</link>
       <pubDate>Tue, 14 Feb 2023 17:52:53 +0100</pubDate>
       
       <guid>https://4yjo.github.io/InteractVR/posts/instructionstoplay/</guid>
-      <description></description>
+      <description>** Installation** The Kite Interaction VR Game is implemented for Oculus VR Headsets and Tested on Oculus Quest 2. Use the .apk file (link on top of this page) to play the game on your VR-headset.
+** Player Position ** The game is designed to play while seated. As the player turns their orientation a lot, an office chair that allows rotation is recommended but other chairs work as well.</description>
     </item>
     
     <item>
@@ -22,8 +33,8 @@
       
       <guid>https://4yjo.github.io/InteractVR/posts/evaluation/</guid>
       <description>** Evaluation**
-For the evaluation the game was tested by two people (excluding the developer). They were asked to play the game for one round of the parcours and afterwards filled in a small questionnaire.
-Game logs of the two tests and the scores achieved by the (more practiced) developer as reference:
+The game was tested by two people (excluding the developer). They were asked to play the game for one round of the parcours and afterwards filled in a short questionnaire. While playing, the following game logs were collected.
+Game Log - Design &amp;amp; Results Game logs of the two tests and the scores achieved by the (more practiced) developer as reference:
 &amp;ldquo;Time for Locomotion&amp;rdquo; describes the time needed to complete one round of the parcours excluding the time used for object interactions.</description>
     </item>
     
@@ -34,7 +45,7 @@ Game logs of the two tests and the scores achieved by the (more practiced) devel
       
       <guid>https://4yjo.github.io/InteractVR/posts/objectinteraction/</guid>
       <description>** Implementation of Object Interaction**
-There are three object interaction tasks within the parcours. Each spawns two t-shaped objects in random position and rotatin. One is slightly transparent, the other is opaque. The users have to rotate and translate the position of the opaque object to make it fit the transparent ones. In the end the accuracy is measured by calculating the offset of the different parts of the transparent object from the opaque one.</description>
+There are three object interaction tasks within the parcours. Each spawns two T-shaped objects in random position and rotation. One is slightly transparent, the other is opaque. The users have to rotate and translate the position of the opaque object to make it fit the transparent ones. In the end, the accuracy is measured by calculating the offset of the different parts of the transparent object from the opaque one.</description>
     </item>
     
     <item>
@@ -43,18 +54,8 @@ There are three object interaction tasks within the parcours. Each spawns two t-
       <pubDate>Tue, 14 Feb 2023 16:49:35 +0100</pubDate>
       
       <guid>https://4yjo.github.io/InteractVR/posts/raycast/</guid>
-      <description>Using Raycast to &amp;ldquo;blow&amp;rdquo; wind at objects
-The decision to use Raycasts allowed for a more controlled handling of events compared to the Unity Physics - at least for me it soon became much easier to understand.
-The raycast is implemented in the blowWind.cs script attached to the ventilator. I also attached a Line-Renderer-Component to the ventilator that visualises the ray for the players. The script differentiates between two kinds of &amp;ldquo;wind modes&amp;rdquo; that the players can change by tapping the touch button of the left controller.</description>
-    </item>
-    
-    <item>
-      <title>Locomotion</title>
-      <link>https://4yjo.github.io/InteractVR/posts/locomotion/</link>
-      <pubDate>Tue, 14 Feb 2023 16:49:23 +0100</pubDate>
-      
-      <guid>https://4yjo.github.io/InteractVR/posts/locomotion/</guid>
-      <description></description>
+      <description>Using Raycast to &amp;ldquo;blow wind&amp;rdquo; at objects
+&amp;ldquo;Raycast in Unity is a Physics function that projects a Ray into the scene, returning a boolean value if a target was successfully hit. When this happens, information about the hit, such as the distance, position or a reference to the object’s Transform, can be stored in a Raycast Hit variable for further use.&amp;rdquo; &amp;ndash; John French: Raycasts in Unity, made easy. Published on gamedevbeginner.</description>
     </item>
     
     <item>
@@ -69,18 +70,7 @@ The first idea was to make the kite follow the y-axis position from the Ventilat
     </item>
     
     <item>
-      <title>Project idea</title>
-      <link>https://4yjo.github.io/InteractVR/posts/projectidea/</link>
-      <pubDate>Tue, 20 Dec 2022 10:49:09 +0100</pubDate>
-      
-      <guid>https://4yjo.github.io/InteractVR/posts/projectidea/</guid>
-      <description>Settling for an idea: Moving the player with a ventilator
-After researching different modes of locomotion in animals and also taking some time with the idea to implement locomotion as it is presented in the Video Game form the Movie &amp;ldquo;Her&amp;rdquo;, I finally settled for a totally different idea inspired by the artwork &amp;ldquo;Objective Realities&amp;rdquo;.
-&amp;ldquo;OBjective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
-    </item>
-    
-    <item>
-      <title>Settling for an idea</title>
+      <title>Locomotion with Kite and Ventilator</title>
       <link>https://4yjo.github.io/InteractVR/posts/usingwind/</link>
       <pubDate>Tue, 20 Dec 2022 10:49:09 +0100</pubDate>
       
@@ -91,14 +81,24 @@ After researching different modes of locomotion in animals and also taking some 
     </item>
     
     <item>
-      <title>First ideas: Animal Locomotion</title>
+      <title>Project idea</title>
+      <link>https://4yjo.github.io/InteractVR/posts/projectidea/</link>
+      <pubDate>Tue, 20 Dec 2022 10:49:09 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/InteractVR/posts/projectidea/</guid>
+      <description>Settling for an idea: Moving the player with a ventilator
+After researching different modes of locomotion in animals and also taking some time with the idea to implement locomotion as it is presented in the Video Game form the Movie &amp;ldquo;Her&amp;rdquo;, I finally settled for a totally different idea inspired by the artwork &amp;ldquo;Objective Realities&amp;rdquo;.
+&amp;ldquo;Objective Ralities&amp;rdquo; is an immersive installation by the artist collective automata.farm in collaboration with the science fiction authorBruce Sterling.</description>
+    </item>
+    
+    <item>
+      <title>First ideas: Locomotion in nature and science-fiction</title>
       <link>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</link>
       <pubDate>Wed, 16 Nov 2022 13:03:25 +0100</pubDate>
       
       <guid>https://4yjo.github.io/InteractVR/posts/animal_locomotion/</guid>
-      <description>Brainstorming different modes of locomotion in animals to find inspiration for locomotion implementation in VR:
-swimming: either by pushing away water with arms/legs or by body movement crawling: similar movements as in swimming, but on land flying: up &amp;amp; downward movement to keep up in the air walking/running: forward movement with legs/feet jumping And getting into how four-legged animals walk:
-&amp;ldquo;It turns out that all four-legged animals step with their left hind leg followed by their left foreleg.</description>
+      <description>Nature&amp;rsquo;s source of inspiration: Researching Locomotion in animals First I brainstormed and researched different types of locomotion in anmimals to find inspiration for the locomotion implementation in VR:
+swimming: either by pushing away water with arms/legs or by body movement crawling: similar movements as in swimming, but on land flying: up &amp;amp; downward movement to keep up in the air walking/running: forward movement with legs/feet jumping And I read more about how four-legged animals walk:</description>
     </item>
     
     <item>
