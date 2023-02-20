@@ -101,8 +101,8 @@
   "keywords": [
     
   ],
-  "articleBody": "Using Raycast to “blow wind” at objects\n“Raycast in Unity is a Physics function that projects a Ray into the scene, returning a boolean value if a target was successfully hit. When this happens, information about the hit, such as the distance, position or a reference to the object’s Transform, can be stored in a Raycast Hit variable for further use.” – John French: Raycasts in Unity, made easy. Published on gamedevbeginner.com in June 2021. https://gamedevbeginner.com/raycasts-in-unity-made-easy/\nThe decision to use Raycasts allowed for a more controlled handling of events compared to using unity’s rigid body - at least for me it soon became much easier to understand.\nVisualize the Raycast with a Line-Renderer The raycast is implemented in the blowWind.cs script attached to the ventilator. I also attached a Line-Renderer-Component to the ventilator that visualises the ray for the players.\nThe script differentiates between two kinds of “wind modes” that the players can change by tapping the touch button of the left controller. If the mode is changed successfully, the visualisation of the rendered line also changes in its thickness. The idea of the two wind modes is to metaphorically adjust the width of the wind-stream coming from the ventilator: With a broader wind-stream objects are moved. Objects that could be moved like that (some parts of the T-Objects as well as the kite) are placed on the layer “bigWind”. The second wind mode, associated to the layer “smallWind” and used for all edges of the T-Object, can be thought of impulses that make obejcts rotate.\nUsing a Layer Mask to controll which objects can be hit The script checks the layer of the hit object using a Unity LayerMask. It is important that colliders are attached to the parts of the objects that should be hit. The video shows a test of my layer mask. If an object was placed on either the “bigWind” (left cube), “smallWind” (middle cube) or “objTask” (right cube) layer the color of the ray was changed from red to blue.\nUsing the layer mask also solved a problem, I had earlier: My Raycast did not cast all objects along its length, so when the kite was moved through the start banner in the beginning of the game, the raycast got “caught” in the collider of the start banner and the kite could not be moved any further. As the start banner is on the default layer, it is ignored by the raycast with the layer mask.\nUsing tags for game objects to define assigned interactions In the second step the objects I wanted to allow the player to interact with (including the kite) were assigned tags that helped to specify actions. For example, if the hit object had the Tag “impRight”, the object should rotate as if it was hit by an wind impulse on the right.\nA special case was the player forward movement, that occured when the middle part was hit. Its collider is tagged “accKite” but instead of just giving one instruction the script uses a mapping (as described in the post on locomotion) to differentiate between four directions (forward, -forward, right, -right). This allowed to safely navigate through the parcour.\n",
-  "wordCount" : "530",
+  "articleBody": "Using Raycast to “blow wind” at objects\n“Raycast in Unity is a Physics function that projects a Ray into the scene, returning a boolean value if a target was successfully hit. When this happens, information about the hit, such as the distance, position or a reference to the object’s Transform, can be stored in a Raycast Hit variable for further use.” – John French: Raycasts in Unity, made easy. Published on gamedevbeginner.com in June 2021. Source\nThe decision to use Raycasts allowed for a more controlled handling of events compared to using unity’s rigid body - at least for me it soon became much easier to understand.\nVisualize the Raycast with a Line-Renderer The raycast is implemented in the blowWind.cs script attached to the ventilator. I also attached a Line-Renderer-Component to the ventilator that visualises the ray for the players.\nThe script differentiates between two kinds of “wind modes” that the players can change by tapping the touch button of the left controller. If the mode is changed successfully, the visualisation of the rendered line also changes in its thickness. The idea of the two wind modes is to metaphorically adjust the width of the wind-stream coming from the ventilator: With a broader wind-stream objects are moved. Objects that could be moved like that (some parts of the T-Objects as well as the kite) are placed on the layer “bigWind”. The second wind mode, associated to the layer “smallWind” and used for all edges of the T-Object, can be thought of impulses that make obejcts rotate.\nUsing a Layer Mask to controll which objects can be hit The script checks the layer of the hit object using a Unity LayerMask. It is important that colliders are attached to the parts of the objects that should be hit. The video shows a test of my layer mask. If an object was placed on either the “bigWind” (left cube), “smallWind” (middle cube) or “objTask” (right cube) layer the color of the ray was changed from red to blue.\nUsing the layer mask also solved a problem, I had earlier: My Raycast did not cast all objects along its length, so when the kite was moved through the start banner in the beginning of the game, the raycast got “caught” in the collider of the start banner and the kite could not be moved any further. As the start banner is on the default layer, it is ignored by the raycast with the layer mask.\nThe code below shows how object interaction is implemented: First, the layer is checked - only if objects are on the “smallWind” Layer, we proceed with object interaction. In the next step, the tag is checked to define the axis for the rotation.\nThe tag of the object that the ray hits is asked of its parent transform (the collider). The variable indexInput is defined earlier in the script and gets the float value of the left controllers index trigger.\nif (RayMode \u0026\u0026 Physics.Raycast(ray, out hit, rayLength, LayerMask.GetMask(\"smallWind\"))) { if (hit.transform.tag == \"impLeft\") { hit.transform.parent.transform.Rotate(new Vector3(0f,-1f,0f)*indexInput); } else if (hit.transform.tag == \"impRight\") { hit.transform.parent.transform.Rotate(new Vector3(0f,1f,0f)*indexInput); } else if (hit.transform.tag == \"impForward\") { hit.transform.parent.transform.Rotate(new Vector3(1f,0f,0f)*indexInput); } else if (hit.transform.tag == \"impBackward\") { hit.transform.parent.transform.Rotate(new Vector3(-1f,0f,0f)*indexInput); } } Using tags for game objects to define assigned interactions In the second step the objects I wanted to allow the player to interact with (including the kite) were assigned tags that helped to specify actions. For example, if the hit object had the Tag “impRight”, the object should rotate as if it was hit by an wind impulse on the right.\nA special case was the player forward movement, that occured when the middle part was hit. Its collider is tagged “accKite” but instead of just giving one instruction the script uses a mapping (as described in the post on locomotion) to differentiate between four directions (forward, -forward, right, -right). This allowed to safely navigate through the parcour.\n",
+  "wordCount" : "655",
   "inLanguage": "en",
   "datePublished": "2023-02-14T16:49:35+01:00",
   "dateModified": "2023-02-14T16:49:35+01:00",
@@ -171,7 +171,7 @@
   <header class="post-header">
     
     <h1 class="post-title">
-      Raycast<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>
+      Raycast
     </h1>
     <div class="post-meta"><span title='2023-02-14 16:49:35 +0100 CET'>February 14, 2023</span>
 
@@ -179,7 +179,7 @@
   </header> 
   <div class="post-content"><p><strong>Using Raycast to &ldquo;blow wind&rdquo; at objects</strong></p>
 <p><em>&ldquo;Raycast in Unity is a Physics function that projects a Ray into the scene, returning a boolean value if a target was successfully hit. When this happens, information about the hit, such as the distance, position or a reference to the object’s Transform, can be stored in a Raycast Hit variable for further use.&rdquo;</em>
-&ndash; John French: Raycasts in Unity, made easy. Published on gamedevbeginner.com in June 2021. <a href="https://gamedevbeginner.com/raycasts-in-unity-made-easy/">https://gamedevbeginner.com/raycasts-in-unity-made-easy/</a></p>
+&ndash; John French: Raycasts in Unity, made easy. Published on gamedevbeginner.com in June 2021. <a href="https://gamedevbeginner.com/raycasts-in-unity-made-easy/">Source</a></p>
 <p>The decision to use Raycasts allowed for a more controlled handling of events compared to using unity&rsquo;s rigid body - at least for me it soon became much easier to understand.</p>
 <p><em>Visualize the Raycast with a Line-Renderer</em>
 The raycast is implemented in the <code>blowWind.cs</code> script attached to the ventilator. I also attached a Line-Renderer-Component to the ventilator that visualises the ray for the players.</p>
@@ -189,9 +189,36 @@ The raycast is implemented in the <code>blowWind.cs</code> script attached to th
 The script checks the layer of the hit object using a Unity LayerMask. It is important that colliders are attached to the parts of the objects that should be hit. The video shows a test of my layer mask. If an object was placed on either the &ldquo;bigWind&rdquo; (left cube), &ldquo;smallWind&rdquo; (middle cube) or &ldquo;objTask&rdquo; (right cube) layer the color of the ray was changed from red to blue.</p>
 <!-- raw HTML omitted -->
 <p>Using the layer mask also solved a problem, I had earlier: My Raycast did not cast all objects along its length, so when the kite was moved through the start banner in the beginning of the game, the raycast got &ldquo;caught&rdquo; in the collider of the start banner and the kite could not be moved any further. As the start banner is on the default layer, it is ignored by the raycast with the layer mask.</p>
-<p><em>Using tags for game objects to define assigned interactions</em>
+<p>The code below shows how object interaction is implemented: First, the layer is checked - only if objects are on the &ldquo;smallWind&rdquo; Layer, we proceed with object interaction. In the next step, the tag is checked to define the axis for the rotation.</p>
+<p>The tag of the object that the ray hits is asked of its parent transform (the collider). The variable indexInput is defined earlier in the script and gets the float value of the left controllers index trigger.</p>
+<pre tabindex="0"><code>if (RayMode &amp;&amp; Physics.Raycast(ray, out hit, rayLength, LayerMask.GetMask(&#34;smallWind&#34;)))
+           {
+
+               if (hit.transform.tag == &#34;impLeft&#34;)
+               {
+                   hit.transform.parent.transform.Rotate(new Vector3(0f,-1f,0f)*indexInput);
+               }
+
+               else if (hit.transform.tag == &#34;impRight&#34;)
+               {
+                   hit.transform.parent.transform.Rotate(new Vector3(0f,1f,0f)*indexInput);
+               }
+
+               else if (hit.transform.tag == &#34;impForward&#34;)
+               {
+                   hit.transform.parent.transform.Rotate(new Vector3(1f,0f,0f)*indexInput);
+               }
+
+               else if (hit.transform.tag == &#34;impBackward&#34;)
+               {
+                   hit.transform.parent.transform.Rotate(new Vector3(-1f,0f,0f)*indexInput);
+               }
+           }
+</code></pre><p><em>Using tags for game objects to define assigned interactions</em>
 In the second step the objects I wanted to allow the player to interact with (including the kite) were assigned tags that helped to specify actions. For example, if the hit object had the Tag &ldquo;impRight&rdquo;, the object should rotate as if it was hit by an wind impulse on the right.</p>
 <!-- raw HTML omitted -->
+<p><img loading="lazy" src="/content/posts/Raycast2.png" alt="Screenshot of modified prefab: The T-Object is divided into several smaller parts that hold colliders and tags. The whole object is on the small-wind layer."  />
+</p>
 <p>A special case was the player forward movement, that occured when the middle part was hit. Its collider is tagged &ldquo;accKite&rdquo; but instead of just giving one instruction the script uses a mapping (as described in the post on locomotion) to differentiate between four directions (forward, -forward, right, -right). This allowed to safely navigate through the parcour.</p>
 <!-- raw HTML omitted -->
 

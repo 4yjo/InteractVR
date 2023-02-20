@@ -4,7 +4,7 @@ date: 2023-02-14T17:52:29+01:00
 draft: true
 ---
 
-** Evaluation**
+**Evaluation**
 
 The game was tested by two people (excluding the developer). They were asked to play the game for one round of the parcours and afterwards filled in a short questionnaire. While playing, the following game logs were collected.
 
