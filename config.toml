@@ -1,4 +1,0 @@
-baseURL = 'https://4yjo.github.io/InteractVR/'
-languageCode = 'en-us'
-title = 'Kite VR - Implementation of Locomotion and Interaction Tequniques for Oculus Quest'
-theme = 'PaperMod'
