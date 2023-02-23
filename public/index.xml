@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kite VR - Locomotion and Interaction for Oculus Quest 2</title>
+    <link>https://4yjo.github.io/KiteVR.github.io/</link>
+    <description>Recent content on Kite VR - Locomotion and Interaction for Oculus Quest 2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Nov 2022 16:54:42 +0100</lastBuildDate><atom:link href="https://4yjo.github.io/KiteVR.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello_World</title>
+      <link>https://4yjo.github.io/KiteVR.github.io/posts/hello_world/</link>
+      <pubDate>Wed, 09 Nov 2022 16:54:42 +0100</pubDate>
+      
+      <guid>https://4yjo.github.io/KiteVR.github.io/posts/hello_world/</guid>
+      <description>Setting a focus for user-experience factors Implementing interaction tequniques for VR is much different from other interaction. It incorporates a 3rd dimension and adds a real spacial relation of the player within the scene. Furthermore the input devices are directly connected to the player&amp;rsquo;s body what increases immersion but also increases the risk of feeling uncomfortable during the game. I used the old and the new Oculus explanations that present the different ways the controllers can be used.</description>
+    </item>
+    
+  </channel>
+</rss>
