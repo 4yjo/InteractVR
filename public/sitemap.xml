@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://4yjo.github.io/InteractVR/</loc>
     <lastmod>2023-02-23T17:17:26+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://4yjo.github.io/InteractVR/posts/</loc>
     <lastmod>2023-02-23T17:17:26+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/venti/</loc>
+    <loc>https://4yjo.github.io/InteractVR/posts/venti/</loc>
     <lastmod>2023-02-23T17:17:26+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/hello_world/</loc>
+    <loc>https://4yjo.github.io/InteractVR/posts/hello_world/</loc>
     <lastmod>2023-02-23T15:50:07+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/moodboard/</loc>
+    <loc>https://4yjo.github.io/InteractVR/posts/moodboard/</loc>
     <lastmod>2022-11-08T16:20:09+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://4yjo.github.io/InteractVR/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://4yjo.github.io/InteractVR/tags/</loc>
   </url>
 </urlset>
