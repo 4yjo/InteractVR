@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Feb 2023 17:17:26 +0100</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Venti</title>
+      <link>http://example.org/posts/venti/</link>
+      <pubDate>Thu, 23 Feb 2023 17:17:26 +0100</pubDate>
+      
+      <guid>http://example.org/posts/venti/</guid>
+      <description>Implementation of Ventilator using Raycast </description>
+    </item>
+    
+    <item>
+      <title>Hello_World</title>
+      <link>http://example.org/posts/hello_world/</link>
+      <pubDate>Thu, 23 Feb 2023 15:50:07 +0100</pubDate>
+      
+      <guid>http://example.org/posts/hello_world/</guid>
+      <description>Hello &amp;amp; welcome to KITE VRRRRR
+Enjoy </description>
+    </item>
+    
+    <item>
+      <title>Moodboard</title>
+      <link>http://example.org/posts/moodboard/</link>
+      <pubDate>Tue, 08 Nov 2022 16:20:09 +0100</pubDate>
+      
+      <guid>http://example.org/posts/moodboard/</guid>
+      <description>Setting a focus for user-experience factors Implementing interaction tequniques for VR is much different from other interaction. It incorporates a 3rd dimension and adds a real spacial relation of the player within the scene. Furthermore the input devices are directly connected to the player&amp;rsquo;s body what increases immersion but also increases the risk of feeling uncomfortable during the game. I used the old and the new Oculus explanations that present the different ways the controllers can be used.</description>
+    </item>
+    
+  </channel>
+</rss>
